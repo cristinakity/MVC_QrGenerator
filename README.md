@@ -10,12 +10,15 @@ Es un ejemplo para generar codigos QR utilizando el nugget QRCoder
 ## Extras
 
 - Qr/Index
+
 ![QrIndex](https://github.com/cristinakity/MVC_QrGenerator/blob/master/QrIndex.png)
 
 - Qr/CustomQr
+
 ![QrIndex](https://github.com/cristinakity/MVC_QrGenerator/blob/master/CustomQr.png)
 
 - Ejemplo:
+
 ![Ejemplo](https://github.com/cristinakity/MVC_QrGenerator/blob/master/Example.gif)
 
 ## Creditos
