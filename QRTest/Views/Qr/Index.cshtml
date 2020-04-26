@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Qr Generator</h1>
+
+<input type="button" value="Generate new QR" onclick="location.href='@Url.Action("Index", "Qr")'" />
+
+<h2>@ViewBag.QrData</h2>
+@{
+    var src = $"{Url.Content("~/")}Qrs/{ViewBag.QrFile}";
+}
+<img width="50%" src="@src" />

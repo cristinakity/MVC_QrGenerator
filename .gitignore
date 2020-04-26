@@ -1,0 +1,16 @@
+# Compiled source #
+###################
+*.dll
+*.exe
+
+# Visual studio files #
+###################
+.vs
+packages
+**/bin/*
+**/obj/*
+
+
+# generated qrs #
+###################
+**/Qrs/*.jpg

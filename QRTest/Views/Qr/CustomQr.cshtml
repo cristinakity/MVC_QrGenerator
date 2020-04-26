@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Custom Qr Generator</h1>
+@using (Html.BeginForm("CustomQr", "Qr"))
+{
+    <input type="text" name="customQrData" value="@ViewBag.QrData" />
+    <input type="submit" value="Generate new QR" />
+}
+<h2>@ViewBag.QrData</h2>
+@{
+    var src = $"{Url.Content("~/")}Qrs/{ViewBag.QrFile}";
+}
+@if ((ViewBag.QrFile ?? "") != "")
+{
+    <img width="50%" src="@src"/>
+}
